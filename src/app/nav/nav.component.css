@@ -1,0 +1,38 @@
+.bg-primary {
+    background-color: #000 !important;
+}
+#sidebar {
+    padding-left:0;
+    background-color: #000000;
+/*    min-height: calc(100vh - 48px);*/
+    transition: left 0.5 ease;
+    height: 4000px;
+ }
+
+#main{padding-left: 0px;}
+/*.sidebar-offcanvas{*/
+/*        background: url("/assets/img/paper.png")top right no-repeat;*/
+/*        position: relative;
+}*/
+#sidebar:after{
+    position: absolute;
+    content: "";
+    width:30px;
+    height: 100%;
+    right: -3px;
+    top:0;
+    background: url("/assets/img/paper.png")top right repeat-y;
+/*    -webkit-box-shadow: 5px 0 5px -1px #D5D5D5;
+    box-shadow: 5px 0 5px -1px #D5D5D5;*/
+/*   -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";*/
+}
+a.nav-link, a.nav-link:focus, a.nav-link:hover{
+    color:#ff0000;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,122 @@
+.col-md-9.col-lg-10.main {
+    float: right;
+/*    top: -200px;
+    margin-right: 0px;*/
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+div.imgcontent{
+/*padding-top:12%;*/
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%, -50%);
+border: 1px solid #000;
+padding:15px;
+border-radius: 20px;
+background-color: rgba(255, 0, 0, 0.5);
+}
+
+div.imgcont{
+ /*background: url('/assets/img/italian.jpg');*/
+ height: 500px;
+ width:100.5%;
+ z-index: 2;
+ max-height:500px;
+ vertical-align: middle;
+ background-image: url("/assets/img/italian-food.jpg");
+background-size:cover;
+background-position:center center;
+background-attachment:fixed;
+position: relative;
+}
+#gradient {
+    position:absolute;
+    z-index:5;
+    right:0; bottom:0; left:0;
+    height:175px;
+    background: none;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(80%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+
+}
+.Name {
+  font-family: 'Alex Brush', cursive;
+  font-size: 4em;
+  font-weight: 500;
+  /*color: #321602*/
+  color:#fff;
+  font-weight: 800;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+small.smallheading{
+  font-family: 'Alex Brush', cursive;
+  font-size: 2em;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  margin-top:-15px;
+  color: #fff;
+/*  color: #ff6600;*/
+      text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.cont-content{
+  padding-left: 15px;
+  padding-right:15px;
+}
+.Menutype {
+  font-family: 'Alex Brush', cursive;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #321602;
+  margin-top:25px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.Menutitle {
+  font-family: 'Cardo', serif;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px dotted #476E04;
+  padding-bottom:10px;
+}
+
+.Menudesc {
+  font-family: 'Cardo', serif;
+/*  border-bottom: 1px dotted #ddd; */
+  padding-bottom:10px;
+  color: #b95d4e;
+}
+
+ul.menublock {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.price {
+  /*display: inline-block;
+  align-items: flex-end;
+  -webkit-align-self: flex-end;
+  align-self: flex-end;*/
+}
+
+
+/*
+.price::first-letter {
+  padding-right: 0.3em;
+}*/
