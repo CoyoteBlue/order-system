@@ -70,5 +70,13 @@ $(document).ready(function () {
 
 });
 </script>
+<script>
+    $(function(){
+  
+      $('.sidenav').click(function(){ 
+        $(this).addClass('active').siblings().removeClass('active');
+      }); 
+    })
+  </script>
 </body>
 </html>
