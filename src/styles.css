@@ -54,28 +54,33 @@ body.modal-open {
 }
 /*.page-wrap {
     min-height: 100%;    /* equal to footer height */
-/*    margin-bottom: -80px; 
+/*    margin-bottom: -80px;
   }
 .page-wrap:after {
     content: "";
     display: block;
   }
 #full-footer, .page-wrap:after {
-    height: 80px; 
+    height: 80px;
   }*/
-  
+
 #full-footer{
-  background-color: #000;
+  background-color: #fff;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #fff;
-  position: fixedabsolute;
+  color: #000;
+  border-top: 1px solid #555;
+  position: fixed;
   bottom:0;
   z-index:15;
+  clear:all;
+/*  display: table-row;*/
 }
 .text-right.small {
     margin-top: 5px;
     margin-bottom: 5px;
+    justify-content: center;
+    display: flex;
 }
 .col-md-9.col-lg-10.main {
     float: right;

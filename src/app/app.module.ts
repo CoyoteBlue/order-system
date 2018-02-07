@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
@@ -29,10 +30,10 @@ import { CustomerComponent } from './customer/customer.component';
 ]; */
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyApqfX2f4XSvOwPTai-ZnKrNkkwNEbLheE',
-  authDomain: 'appnwmedia.firebaseapp.com',
-  databaseURL: 'https://appnwmedia.firebaseio.com',
-  storageBucket: 'appnwmedia.appspot.com'
+  apiKey: 'YzYzYzYzYzYzYzYzYzYzYzYzYz',
+  authDomain: 'appname.firebaseapp.com',
+  databaseURL: 'https://appname.firebaseio.com',
+  storageBucket: 'appname.appspot.com'
 };
 
 @NgModule({
@@ -51,7 +52,8 @@ export const firebaseConfig = {
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(firebaseConfig)
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
 /*    RouterModule.forRoot(OrderRoutes),*/
   ],
   providers: [],
